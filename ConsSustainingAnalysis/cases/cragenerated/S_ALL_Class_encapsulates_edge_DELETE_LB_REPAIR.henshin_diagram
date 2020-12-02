@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmi:id="_cfQi4DSnEeuZxZ7l8U_CuA" type="Henshin" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_cfvrEDSnEeuZxZ7l8U_CuA" type="2001" fontName="Segoe UI" italic="true" lineColor="0">
+    <children xmi:type="notation:DecorationNode" xmi:id="_cfvrEjSnEeuZxZ7l8U_CuA" type="5001"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_cfvrEzSnEeuZxZ7l8U_CuA" type="7001">
+      <children xmi:type="notation:Shape" xmi:id="_cfvrFDSnEeuZxZ7l8U_CuA" type="3001" fontName="Segoe UI">
+        <children xmi:type="notation:DecorationNode" xmi:id="_cfwSIDSnEeuZxZ7l8U_CuA" type="5002"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_cfwSITSnEeuZxZ7l8U_CuA" type="5003"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_cfwSIjSnEeuZxZ7l8U_CuA" type="7002">
+          <styles xmi:type="notation:SortingStyle" xmi:id="_cfwSIzSnEeuZxZ7l8U_CuA"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_cfwSJDSnEeuZxZ7l8U_CuA"/>
+        </children>
+        <element xmi:type="henshin:Node" href="S_ALL_Class_encapsulates_edge_DELETE_LB_REPAIR.henshin#_jvZq03viEemxcto_OqSmSQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cfvrFTSnEeuZxZ7l8U_CuA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_cfwSJTSnEeuZxZ7l8U_CuA" type="3001" fontName="Segoe UI">
+        <children xmi:type="notation:DecorationNode" xmi:id="_cfwSJzSnEeuZxZ7l8U_CuA" type="5002"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_cfwSKDSnEeuZxZ7l8U_CuA" type="5003"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_cfwSKTSnEeuZxZ7l8U_CuA" type="7002">
+          <styles xmi:type="notation:SortingStyle" xmi:id="_cfwSKjSnEeuZxZ7l8U_CuA"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_cfwSKzSnEeuZxZ7l8U_CuA"/>
+        </children>
+        <element xmi:type="henshin:Node" href="S_ALL_Class_encapsulates_edge_DELETE_LB_REPAIR.henshin#_jvZq1HviEemxcto_OqSmSQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cfwSJjSnEeuZxZ7l8U_CuA" x="238" y="75"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_cfwSLDSnEeuZxZ7l8U_CuA" type="3001" fontName="Segoe UI">
+        <children xmi:type="notation:DecorationNode" xmi:id="_cfwSLjSnEeuZxZ7l8U_CuA" type="5002"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_cfwSLzSnEeuZxZ7l8U_CuA" type="5003"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_cfwSMDSnEeuZxZ7l8U_CuA" type="7002">
+          <styles xmi:type="notation:SortingStyle" xmi:id="_cfwSMTSnEeuZxZ7l8U_CuA"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_cfwSMjSnEeuZxZ7l8U_CuA"/>
+        </children>
+        <element xmi:type="henshin:Node" href="S_ALL_Class_encapsulates_edge_DELETE_LB_REPAIR.henshin#_jvZq1XviEemxcto_OqSmSQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cfwSLTSnEeuZxZ7l8U_CuA" x="65" y="243"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_cfwSMzSnEeuZxZ7l8U_CuA" type="3001" fontName="Segoe UI">
+        <children xmi:type="notation:DecorationNode" xmi:id="_cfwSNTSnEeuZxZ7l8U_CuA" type="5002"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_cfwSNjSnEeuZxZ7l8U_CuA" type="5003"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_cfwSNzSnEeuZxZ7l8U_CuA" type="7002">
+          <styles xmi:type="notation:SortingStyle" xmi:id="_cfwSODSnEeuZxZ7l8U_CuA"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_cfwSOTSnEeuZxZ7l8U_CuA"/>
+        </children>
+        <element xmi:type="henshin:Node" href="S_ALL_Class_encapsulates_edge_DELETE_LB_REPAIR.henshin#_jvZq1nviEemxcto_OqSmSQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cfwSNDSnEeuZxZ7l8U_CuA" x="361" y="217"/>
+      </children>
+    </children>
+    <element xmi:type="henshin:Rule" href="S_ALL_Class_encapsulates_edge_DELETE_LB_REPAIR.henshin#_jvZDwXviEemxcto_OqSmSQ"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cfvrETSnEeuZxZ7l8U_CuA" x="6" y="1" height="355"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_cfQi4TSnEeuZxZ7l8U_CuA"/>
+  <element xmi:type="henshin:Module" href="S_ALL_Class_encapsulates_edge_DELETE_LB_REPAIR.henshin#_jvZDwHviEemxcto_OqSmSQ"/>
+</notation:Diagram>
