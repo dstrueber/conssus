@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_-aOm0DSXEeuZxZ7l8U_CuA">
+  <imports href="classmodel.ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="__UwVYDSXEeuZxZ7l8U_CuA" name="checkPC1">
+    <lhs xmi:id="__U3DEDSXEeuZxZ7l8U_CuA" name="Lhs">
+      <nodes xmi:id="_M_Y5YDSYEeuZxZ7l8U_CuA" outgoing="_OxvAwDSYEeuZxZ7l8U_CuA">
+        <type href="classmodel.ecore#//Class"/>
+      </nodes>
+      <nodes xmi:id="_NtyQcDSYEeuZxZ7l8U_CuA" outgoing="_PCZ6ADSYEeuZxZ7l8U_CuA">
+        <type href="classmodel.ecore#//Class"/>
+      </nodes>
+      <nodes xmi:id="_OVKZgDSYEeuZxZ7l8U_CuA" incoming="_OxvAwDSYEeuZxZ7l8U_CuA _PCZ6ADSYEeuZxZ7l8U_CuA">
+        <type href="classmodel.ecore#//Feature"/>
+      </nodes>
+      <edges xmi:id="_OxvAwDSYEeuZxZ7l8U_CuA" source="_M_Y5YDSYEeuZxZ7l8U_CuA" target="_OVKZgDSYEeuZxZ7l8U_CuA">
+        <type href="classmodel.ecore#//Class/contains"/>
+      </edges>
+      <edges xmi:id="_PCZ6ADSYEeuZxZ7l8U_CuA" source="_NtyQcDSYEeuZxZ7l8U_CuA" target="_OVKZgDSYEeuZxZ7l8U_CuA">
+        <type href="classmodel.ecore#//Class/contains"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="__U3DETSXEeuZxZ7l8U_CuA" name="Rhs">
+      <nodes xmi:id="_M_Y5YTSYEeuZxZ7l8U_CuA" outgoing="_OxvAwTSYEeuZxZ7l8U_CuA">
+        <type href="classmodel.ecore#//Class"/>
+      </nodes>
+      <nodes xmi:id="_NtyQcTSYEeuZxZ7l8U_CuA" outgoing="_PCZ6ATSYEeuZxZ7l8U_CuA">
+        <type href="classmodel.ecore#//Class"/>
+      </nodes>
+      <nodes xmi:id="_OVLAkDSYEeuZxZ7l8U_CuA" incoming="_OxvAwTSYEeuZxZ7l8U_CuA _PCZ6ATSYEeuZxZ7l8U_CuA">
+        <type href="classmodel.ecore#//Feature"/>
+      </nodes>
+      <edges xmi:id="_OxvAwTSYEeuZxZ7l8U_CuA" source="_M_Y5YTSYEeuZxZ7l8U_CuA" target="_OVLAkDSYEeuZxZ7l8U_CuA">
+        <type href="classmodel.ecore#//Class/contains"/>
+      </edges>
+      <edges xmi:id="_PCZ6ATSYEeuZxZ7l8U_CuA" source="_NtyQcTSYEeuZxZ7l8U_CuA" target="_OVLAkDSYEeuZxZ7l8U_CuA">
+        <type href="classmodel.ecore#//Class/contains"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_M_ZgcDSYEeuZxZ7l8U_CuA" origin="_M_Y5YDSYEeuZxZ7l8U_CuA" image="_M_Y5YTSYEeuZxZ7l8U_CuA"/>
+    <mappings xmi:id="_NtyQcjSYEeuZxZ7l8U_CuA" origin="_NtyQcDSYEeuZxZ7l8U_CuA" image="_NtyQcTSYEeuZxZ7l8U_CuA"/>
+    <mappings xmi:id="_OVLAkTSYEeuZxZ7l8U_CuA" origin="_OVKZgDSYEeuZxZ7l8U_CuA" image="_OVLAkDSYEeuZxZ7l8U_CuA"/>
+  </units>
+  <units xsi:type="henshin:Rule" xmi:id="_SOUcYDSYEeuZxZ7l8U_CuA" name="checkPC2Prime">
+    <lhs xmi:id="_SOUcYTSYEeuZxZ7l8U_CuA" name="Lhs">
+      <nodes xmi:id="_SOUcYjSYEeuZxZ7l8U_CuA" outgoing="_SOUcZTSYEeuZxZ7l8U_CuA">
+        <type href="classmodel.ecore#//Class"/>
+      </nodes>
+      <nodes xmi:id="_SOUcZDSYEeuZxZ7l8U_CuA" incoming="_SOUcZTSYEeuZxZ7l8U_CuA">
+        <type href="classmodel.ecore#//Feature"/>
+      </nodes>
+      <edges xmi:id="_SOUcZTSYEeuZxZ7l8U_CuA" source="_SOUcYjSYEeuZxZ7l8U_CuA" target="_SOUcZDSYEeuZxZ7l8U_CuA">
+        <type href="classmodel.ecore#//Class/contains"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_SOUcZzSYEeuZxZ7l8U_CuA" name="Rhs">
+      <nodes xmi:id="_SOUcaDSYEeuZxZ7l8U_CuA" outgoing="_SOUcazSYEeuZxZ7l8U_CuA">
+        <type href="classmodel.ecore#//Class"/>
+      </nodes>
+      <nodes xmi:id="_SOUcajSYEeuZxZ7l8U_CuA" incoming="_SOUcazSYEeuZxZ7l8U_CuA">
+        <type href="classmodel.ecore#//Feature"/>
+      </nodes>
+      <edges xmi:id="_SOUcazSYEeuZxZ7l8U_CuA" source="_SOUcaDSYEeuZxZ7l8U_CuA" target="_SOUcajSYEeuZxZ7l8U_CuA">
+        <type href="classmodel.ecore#//Class/contains"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_SOUcbTSYEeuZxZ7l8U_CuA" origin="_SOUcYjSYEeuZxZ7l8U_CuA" image="_SOUcaDSYEeuZxZ7l8U_CuA"/>
+    <mappings xmi:id="_SOUcbzSYEeuZxZ7l8U_CuA" origin="_SOUcZDSYEeuZxZ7l8U_CuA" image="_SOUcajSYEeuZxZ7l8U_CuA"/>
+  </units>
+  <units xsi:type="henshin:Rule" xmi:id="_ZCuvhTSYEeuZxZ7l8U_CuA" name="checkPC2">
+    <lhs xmi:id="_ZCuvhjSYEeuZxZ7l8U_CuA" name="Lhs">
+      <nodes xmi:id="_ZCuvhzSYEeuZxZ7l8U_CuA">
+        <type href="classmodel.ecore#//Class"/>
+      </nodes>
+    </lhs>
+    <rhs xmi:id="_ZCuvijSYEeuZxZ7l8U_CuA" name="Rhs">
+      <nodes xmi:id="_ZCuvizSYEeuZxZ7l8U_CuA">
+        <type href="classmodel.ecore#//Class"/>
+      </nodes>
+    </rhs>
+    <mappings xmi:id="_ZCuvjjSYEeuZxZ7l8U_CuA" origin="_ZCuvhzSYEeuZxZ7l8U_CuA" image="_ZCuvizSYEeuZxZ7l8U_CuA"/>
+  </units>
+  <units xsi:type="henshin:Rule" xmi:id="_oCyOQDSYEeuZxZ7l8U_CuA" name="checkPC3">
+    <lhs xmi:id="_oCyOQTSYEeuZxZ7l8U_CuA" name="Lhs">
+      <nodes xmi:id="_oCyOQjSYEeuZxZ7l8U_CuA" outgoing="_oCyORTSYEeuZxZ7l8U_CuA">
+        <type href="classmodel.ecore#//Class"/>
+      </nodes>
+      <nodes xmi:id="_oCyOQzSYEeuZxZ7l8U_CuA" outgoing="_rhBPsDSYEeuZxZ7l8U_CuA">
+        <type href="classmodel.ecore#//Class"/>
+      </nodes>
+      <nodes xmi:id="_oCyORDSYEeuZxZ7l8U_CuA" incoming="_oCyORTSYEeuZxZ7l8U_CuA" outgoing="_si15EDSYEeuZxZ7l8U_CuA">
+        <type href="classmodel.ecore#//Feature"/>
+      </nodes>
+      <nodes xmi:id="_qpDF4DSYEeuZxZ7l8U_CuA" incoming="_rhBPsDSYEeuZxZ7l8U_CuA _si15EDSYEeuZxZ7l8U_CuA">
+        <type href="classmodel.ecore#//Feature"/>
+      </nodes>
+      <edges xmi:id="_oCyORTSYEeuZxZ7l8U_CuA" source="_oCyOQjSYEeuZxZ7l8U_CuA" target="_oCyORDSYEeuZxZ7l8U_CuA">
+        <type href="classmodel.ecore#//Class/contains"/>
+      </edges>
+      <edges xmi:id="_rhBPsDSYEeuZxZ7l8U_CuA" source="_oCyOQzSYEeuZxZ7l8U_CuA" target="_qpDF4DSYEeuZxZ7l8U_CuA">
+        <type href="classmodel.ecore#//Class/contains"/>
+      </edges>
+      <edges xmi:id="_si15EDSYEeuZxZ7l8U_CuA" source="_oCyORDSYEeuZxZ7l8U_CuA" target="_qpDF4DSYEeuZxZ7l8U_CuA">
+        <type href="classmodel.ecore#//Feature/hasDependencyTo"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_oCyORzSYEeuZxZ7l8U_CuA" name="Rhs">
+      <nodes xmi:id="_oCyOSDSYEeuZxZ7l8U_CuA" outgoing="_oCyOSzSYEeuZxZ7l8U_CuA">
+        <type href="classmodel.ecore#//Class"/>
+      </nodes>
+      <nodes xmi:id="_oCyOSTSYEeuZxZ7l8U_CuA" outgoing="_rhBPsTSYEeuZxZ7l8U_CuA">
+        <type href="classmodel.ecore#//Class"/>
+      </nodes>
+      <nodes xmi:id="_oCyOSjSYEeuZxZ7l8U_CuA" incoming="_oCyOSzSYEeuZxZ7l8U_CuA" outgoing="_si15ETSYEeuZxZ7l8U_CuA">
+        <type href="classmodel.ecore#//Feature"/>
+      </nodes>
+      <nodes xmi:id="_qpDF4TSYEeuZxZ7l8U_CuA" incoming="_rhBPsTSYEeuZxZ7l8U_CuA _si15ETSYEeuZxZ7l8U_CuA">
+        <type href="classmodel.ecore#//Feature"/>
+      </nodes>
+      <edges xmi:id="_oCyOSzSYEeuZxZ7l8U_CuA" source="_oCyOSDSYEeuZxZ7l8U_CuA" target="_oCyOSjSYEeuZxZ7l8U_CuA">
+        <type href="classmodel.ecore#//Class/contains"/>
+      </edges>
+      <edges xmi:id="_rhBPsTSYEeuZxZ7l8U_CuA" source="_oCyOSTSYEeuZxZ7l8U_CuA" target="_qpDF4TSYEeuZxZ7l8U_CuA">
+        <type href="classmodel.ecore#//Class/contains"/>
+      </edges>
+      <edges xmi:id="_si15ETSYEeuZxZ7l8U_CuA" source="_oCyOSjSYEeuZxZ7l8U_CuA" target="_qpDF4TSYEeuZxZ7l8U_CuA">
+        <type href="classmodel.ecore#//Feature/hasDependencyTo"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_oCyOTTSYEeuZxZ7l8U_CuA" origin="_oCyOQjSYEeuZxZ7l8U_CuA" image="_oCyOSDSYEeuZxZ7l8U_CuA"/>
+    <mappings xmi:id="_oCyOTjSYEeuZxZ7l8U_CuA" origin="_oCyOQzSYEeuZxZ7l8U_CuA" image="_oCyOSTSYEeuZxZ7l8U_CuA"/>
+    <mappings xmi:id="_oCyOTzSYEeuZxZ7l8U_CuA" origin="_oCyORDSYEeuZxZ7l8U_CuA" image="_oCyOSjSYEeuZxZ7l8U_CuA"/>
+    <mappings xmi:id="_qpDF4jSYEeuZxZ7l8U_CuA" origin="_qpDF4DSYEeuZxZ7l8U_CuA" image="_qpDF4TSYEeuZxZ7l8U_CuA"/>
+  </units>
+  <units xsi:type="henshin:Rule" xmi:id="_tF-bcjSYEeuZxZ7l8U_CuA" name="checkPC3Prime">
+    <lhs xmi:id="_tF-bczSYEeuZxZ7l8U_CuA" name="Lhs">
+      <nodes xmi:id="_tF-bdDSYEeuZxZ7l8U_CuA" outgoing="_tF-beDSYEeuZxZ7l8U_CuA _xsBZYDSYEeuZxZ7l8U_CuA">
+        <type href="classmodel.ecore#//Class"/>
+      </nodes>
+      <nodes xmi:id="_tF-bdTSYEeuZxZ7l8U_CuA" outgoing="_tF-beTSYEeuZxZ7l8U_CuA">
+        <type href="classmodel.ecore#//Class"/>
+      </nodes>
+      <nodes xmi:id="_tF-bdjSYEeuZxZ7l8U_CuA" incoming="_tF-beDSYEeuZxZ7l8U_CuA" outgoing="_tF-bejSYEeuZxZ7l8U_CuA _yYxxsDSYEeuZxZ7l8U_CuA">
+        <type href="classmodel.ecore#//Feature"/>
+      </nodes>
+      <nodes xmi:id="_tF-bdzSYEeuZxZ7l8U_CuA" incoming="_tF-beTSYEeuZxZ7l8U_CuA _tF-bejSYEeuZxZ7l8U_CuA">
+        <type href="classmodel.ecore#//Feature"/>
+      </nodes>
+      <nodes xmi:id="_xGSPEDSYEeuZxZ7l8U_CuA" incoming="_xsBZYDSYEeuZxZ7l8U_CuA _yYxxsDSYEeuZxZ7l8U_CuA">
+        <type href="classmodel.ecore#//Feature"/>
+      </nodes>
+      <edges xmi:id="_tF-beDSYEeuZxZ7l8U_CuA" source="_tF-bdDSYEeuZxZ7l8U_CuA" target="_tF-bdjSYEeuZxZ7l8U_CuA">
+        <type href="classmodel.ecore#//Class/contains"/>
+      </edges>
+      <edges xmi:id="_tF-beTSYEeuZxZ7l8U_CuA" source="_tF-bdTSYEeuZxZ7l8U_CuA" target="_tF-bdzSYEeuZxZ7l8U_CuA">
+        <type href="classmodel.ecore#//Class/contains"/>
+      </edges>
+      <edges xmi:id="_tF-bejSYEeuZxZ7l8U_CuA" source="_tF-bdjSYEeuZxZ7l8U_CuA" target="_tF-bdzSYEeuZxZ7l8U_CuA">
+        <type href="classmodel.ecore#//Feature/hasDependencyTo"/>
+      </edges>
+      <edges xmi:id="_xsBZYDSYEeuZxZ7l8U_CuA" source="_tF-bdDSYEeuZxZ7l8U_CuA" target="_xGSPEDSYEeuZxZ7l8U_CuA">
+        <type href="classmodel.ecore#//Class/contains"/>
+      </edges>
+      <edges xmi:id="_yYxxsDSYEeuZxZ7l8U_CuA" source="_tF-bdjSYEeuZxZ7l8U_CuA" target="_xGSPEDSYEeuZxZ7l8U_CuA">
+        <type href="classmodel.ecore#//Feature/hasDependencyTo"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_tF-bezSYEeuZxZ7l8U_CuA" name="Rhs">
+      <nodes xmi:id="_tF-bfDSYEeuZxZ7l8U_CuA" outgoing="_tF-bgDSYEeuZxZ7l8U_CuA _xsBZYTSYEeuZxZ7l8U_CuA">
+        <type href="classmodel.ecore#//Class"/>
+      </nodes>
+      <nodes xmi:id="_tF-bfTSYEeuZxZ7l8U_CuA" outgoing="_tF-bgTSYEeuZxZ7l8U_CuA">
+        <type href="classmodel.ecore#//Class"/>
+      </nodes>
+      <nodes xmi:id="_tF-bfjSYEeuZxZ7l8U_CuA" incoming="_tF-bgDSYEeuZxZ7l8U_CuA" outgoing="_tF-bgjSYEeuZxZ7l8U_CuA _yYyYwDSYEeuZxZ7l8U_CuA">
+        <type href="classmodel.ecore#//Feature"/>
+      </nodes>
+      <nodes xmi:id="_tF-bfzSYEeuZxZ7l8U_CuA" incoming="_tF-bgTSYEeuZxZ7l8U_CuA _tF-bgjSYEeuZxZ7l8U_CuA">
+        <type href="classmodel.ecore#//Feature"/>
+      </nodes>
+      <nodes xmi:id="_xGSPETSYEeuZxZ7l8U_CuA" incoming="_xsBZYTSYEeuZxZ7l8U_CuA _yYyYwDSYEeuZxZ7l8U_CuA">
+        <type href="classmodel.ecore#//Feature"/>
+      </nodes>
+      <edges xmi:id="_tF-bgDSYEeuZxZ7l8U_CuA" source="_tF-bfDSYEeuZxZ7l8U_CuA" target="_tF-bfjSYEeuZxZ7l8U_CuA">
+        <type href="classmodel.ecore#//Class/contains"/>
+      </edges>
+      <edges xmi:id="_tF-bgTSYEeuZxZ7l8U_CuA" source="_tF-bfTSYEeuZxZ7l8U_CuA" target="_tF-bfzSYEeuZxZ7l8U_CuA">
+        <type href="classmodel.ecore#//Class/contains"/>
+      </edges>
+      <edges xmi:id="_tF-bgjSYEeuZxZ7l8U_CuA" source="_tF-bfjSYEeuZxZ7l8U_CuA" target="_tF-bfzSYEeuZxZ7l8U_CuA">
+        <type href="classmodel.ecore#//Feature/hasDependencyTo"/>
+      </edges>
+      <edges xmi:id="_xsBZYTSYEeuZxZ7l8U_CuA" source="_tF-bfDSYEeuZxZ7l8U_CuA" target="_xGSPETSYEeuZxZ7l8U_CuA">
+        <type href="classmodel.ecore#//Class/contains"/>
+      </edges>
+      <edges xmi:id="_yYyYwDSYEeuZxZ7l8U_CuA" source="_tF-bfjSYEeuZxZ7l8U_CuA" target="_xGSPETSYEeuZxZ7l8U_CuA">
+        <type href="classmodel.ecore#//Feature/hasDependencyTo"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_tF-bgzSYEeuZxZ7l8U_CuA" origin="_tF-bdDSYEeuZxZ7l8U_CuA" image="_tF-bfDSYEeuZxZ7l8U_CuA"/>
+    <mappings xmi:id="_tF-bhDSYEeuZxZ7l8U_CuA" origin="_tF-bdTSYEeuZxZ7l8U_CuA" image="_tF-bfTSYEeuZxZ7l8U_CuA"/>
+    <mappings xmi:id="_tF-bhTSYEeuZxZ7l8U_CuA" origin="_tF-bdjSYEeuZxZ7l8U_CuA" image="_tF-bfjSYEeuZxZ7l8U_CuA"/>
+    <mappings xmi:id="_tF-bhjSYEeuZxZ7l8U_CuA" origin="_tF-bdzSYEeuZxZ7l8U_CuA" image="_tF-bfzSYEeuZxZ7l8U_CuA"/>
+    <mappings xmi:id="_xGSPEjSYEeuZxZ7l8U_CuA" origin="_xGSPEDSYEeuZxZ7l8U_CuA" image="_xGSPETSYEeuZxZ7l8U_CuA"/>
+  </units>
+</henshin:Module>

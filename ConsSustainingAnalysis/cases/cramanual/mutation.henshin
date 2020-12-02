@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_CHfzYFfZEeqJfJad6U3Leg">
+  <imports href="classmodel.ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_E3GNMFfZEeqJfJad6U3Leg" name="assignFeature">
+    <lhs xmi:id="_E3wUgFfZEeqJfJad6U3Leg" name="Lhs">
+      <nodes xmi:id="_JscykFfZEeqJfJad6U3Leg">
+        <type href="classmodel.ecore#//Feature"/>
+      </nodes>
+      <nodes xmi:id="_J8rm8FfZEeqJfJad6U3Leg">
+        <type href="classmodel.ecore#//Class"/>
+      </nodes>
+      <formula xsi:type="henshin:And" xmi:id="_xmRnUFfZEeqJfJad6U3Leg">
+        <left xsi:type="henshin:Not" xmi:id="_pQCVIFfZEeqJfJad6U3Leg">
+          <child xsi:type="henshin:NestedCondition" xmi:id="_pQCVIVfZEeqJfJad6U3Leg">
+            <conclusion xmi:id="_pQCVIlfZEeqJfJad6U3Leg" name="1">
+              <nodes xmi:id="_pQCVI1fZEeqJfJad6U3Leg" outgoing="_nviLsFfZEeqJfJad6U3Leg">
+                <type href="classmodel.ecore#//Class"/>
+              </nodes>
+              <nodes xmi:id="_pQC8MVfZEeqJfJad6U3Leg" incoming="_nviLsFfZEeqJfJad6U3Leg">
+                <type href="classmodel.ecore#//Feature"/>
+              </nodes>
+              <edges xmi:id="_nviLsFfZEeqJfJad6U3Leg" source="_pQCVI1fZEeqJfJad6U3Leg" target="_pQC8MVfZEeqJfJad6U3Leg">
+                <type href="classmodel.ecore#//Class/contains"/>
+              </edges>
+            </conclusion>
+            <mappings xmi:id="_pQC8MFfZEeqJfJad6U3Leg" origin="_J8rm8FfZEeqJfJad6U3Leg" image="_pQCVI1fZEeqJfJad6U3Leg"/>
+            <mappings xmi:id="_pQC8MlfZEeqJfJad6U3Leg" origin="_JscykFfZEeqJfJad6U3Leg" image="_pQC8MVfZEeqJfJad6U3Leg"/>
+          </child>
+        </left>
+        <right xsi:type="henshin:Not" xmi:id="_xmRnUVfZEeqJfJad6U3Leg">
+          <child xsi:type="henshin:NestedCondition" xmi:id="_xmRnUlfZEeqJfJad6U3Leg">
+            <conclusion xmi:id="_xmRnU1fZEeqJfJad6U3Leg" name="2">
+              <nodes xmi:id="_xmSOYVfZEeqJfJad6U3Leg" incoming="_0VveQFfZEeqJfJad6U3Leg">
+                <type href="classmodel.ecore#//Feature"/>
+              </nodes>
+              <nodes xmi:id="_xmSOZFfZEeqJfJad6U3Leg">
+                <type href="classmodel.ecore#//Class"/>
+              </nodes>
+              <nodes xmi:id="_w0oH8FfZEeqJfJad6U3Leg" outgoing="_0VveQFfZEeqJfJad6U3Leg">
+                <type href="classmodel.ecore#//Class"/>
+              </nodes>
+              <edges xmi:id="_0VveQFfZEeqJfJad6U3Leg" source="_w0oH8FfZEeqJfJad6U3Leg" target="_xmSOYVfZEeqJfJad6U3Leg">
+                <type href="classmodel.ecore#//Class/contains"/>
+              </edges>
+            </conclusion>
+            <mappings xmi:id="_xmSOYlfZEeqJfJad6U3Leg" origin="_JscykFfZEeqJfJad6U3Leg" image="_xmSOYVfZEeqJfJad6U3Leg"/>
+            <mappings xmi:id="_xmSOZVfZEeqJfJad6U3Leg" origin="_J8rm8FfZEeqJfJad6U3Leg" image="_xmSOZFfZEeqJfJad6U3Leg"/>
+          </child>
+        </right>
+      </formula>
+    </lhs>
+    <rhs xmi:id="_E3wUgVfZEeqJfJad6U3Leg" name="Rhs">
+      <nodes xmi:id="_JscykVfZEeqJfJad6U3Leg" incoming="_qPdx0FfZEeqJfJad6U3Leg">
+        <type href="classmodel.ecore#//Feature"/>
+      </nodes>
+      <nodes xmi:id="_J8rm8VfZEeqJfJad6U3Leg" outgoing="_qPdx0FfZEeqJfJad6U3Leg">
+        <type href="classmodel.ecore#//Class"/>
+      </nodes>
+      <edges xmi:id="_qPdx0FfZEeqJfJad6U3Leg" source="_J8rm8VfZEeqJfJad6U3Leg" target="_JscykVfZEeqJfJad6U3Leg">
+        <type href="classmodel.ecore#//Class/contains"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_JscyklfZEeqJfJad6U3Leg" origin="_JscykFfZEeqJfJad6U3Leg" image="_JscykVfZEeqJfJad6U3Leg"/>
+    <mappings xmi:id="_J8rm8lfZEeqJfJad6U3Leg" origin="_J8rm8FfZEeqJfJad6U3Leg" image="_J8rm8VfZEeqJfJad6U3Leg"/>
+  </units>
+  <units xsi:type="henshin:Rule" xmi:id="_N2_OcFfbEeqJfJad6U3Leg" name="createClass">
+    <lhs xmi:id="_N3EG8FfbEeqJfJad6U3Leg" name="Lhs">
+      <nodes xmi:id="_W-ygcFfbEeqJfJad6U3Leg">
+        <type href="classmodel.ecore#//Feature"/>
+      </nodes>
+      <formula xsi:type="henshin:Not" xmi:id="_oEKF8FfbEeqJfJad6U3Leg">
+        <child xsi:type="henshin:NestedCondition" xmi:id="_oEKF8VfbEeqJfJad6U3Leg">
+          <conclusion xmi:id="_oEKF8lfbEeqJfJad6U3Leg">
+            <nodes xmi:id="_oEKtAVfbEeqJfJad6U3Leg" incoming="_pmYtsFfbEeqJfJad6U3Leg">
+              <type href="classmodel.ecore#//Feature"/>
+            </nodes>
+            <nodes xmi:id="_nqlvYFfbEeqJfJad6U3Leg" outgoing="_pmYtsFfbEeqJfJad6U3Leg">
+              <type href="classmodel.ecore#//Class"/>
+            </nodes>
+            <edges xmi:id="_pmYtsFfbEeqJfJad6U3Leg" source="_nqlvYFfbEeqJfJad6U3Leg" target="_oEKtAVfbEeqJfJad6U3Leg">
+              <type href="classmodel.ecore#//Class/contains"/>
+            </edges>
+          </conclusion>
+          <mappings xmi:id="_oEKtAlfbEeqJfJad6U3Leg" origin="_W-ygcFfbEeqJfJad6U3Leg" image="_oEKtAVfbEeqJfJad6U3Leg"/>
+        </child>
+      </formula>
+    </lhs>
+    <rhs xmi:id="_N3EG8VfbEeqJfJad6U3Leg" name="Rhs">
+      <nodes xmi:id="_UmrZkFfbEeqJfJad6U3Leg" outgoing="_ZwZFYFfbEeqJfJad6U3Leg">
+        <type href="classmodel.ecore#//Class"/>
+      </nodes>
+      <nodes xmi:id="_XfnVkFfbEeqJfJad6U3Leg" incoming="_ZwZFYFfbEeqJfJad6U3Leg">
+        <type href="classmodel.ecore#//Feature"/>
+      </nodes>
+      <edges xmi:id="_ZwZFYFfbEeqJfJad6U3Leg" source="_UmrZkFfbEeqJfJad6U3Leg" target="_XfnVkFfbEeqJfJad6U3Leg">
+        <type href="classmodel.ecore#//Class/contains"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_XfnVkVfbEeqJfJad6U3Leg" origin="_W-ygcFfbEeqJfJad6U3Leg" image="_XfnVkFfbEeqJfJad6U3Leg"/>
+  </units>
+  <units xsi:type="henshin:Rule" xmi:id="_FjhY4FfaEeqJfJad6U3Leg" name="moveFeature">
+    <lhs xmi:id="_Fjp7wFfaEeqJfJad6U3Leg" name="Lhs">
+      <nodes xmi:id="_LapkUFfaEeqJfJad6U3Leg" outgoing="_WpuE0FfaEeqJfJad6U3Leg">
+        <type href="classmodel.ecore#//Class"/>
+      </nodes>
+      <nodes xmi:id="_Nw0xgFfaEeqJfJad6U3Leg">
+        <type href="classmodel.ecore#//Class"/>
+      </nodes>
+      <nodes xmi:id="_OiCzEFfaEeqJfJad6U3Leg" incoming="_WpuE0FfaEeqJfJad6U3Leg">
+        <type href="classmodel.ecore#//Feature"/>
+      </nodes>
+      <edges xmi:id="_WpuE0FfaEeqJfJad6U3Leg" source="_LapkUFfaEeqJfJad6U3Leg" target="_OiCzEFfaEeqJfJad6U3Leg">
+        <type href="classmodel.ecore#//Class/contains"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_Fjp7wVfaEeqJfJad6U3Leg" name="Rhs">
+      <nodes xmi:id="_LapkUVfaEeqJfJad6U3Leg">
+        <type href="classmodel.ecore#//Class"/>
+      </nodes>
+      <nodes xmi:id="_Nw0xgVfaEeqJfJad6U3Leg" outgoing="_SFtuIFfaEeqJfJad6U3Leg">
+        <type href="classmodel.ecore#//Class"/>
+      </nodes>
+      <nodes xmi:id="_OiCzEVfaEeqJfJad6U3Leg" incoming="_SFtuIFfaEeqJfJad6U3Leg">
+        <type href="classmodel.ecore#//Feature"/>
+      </nodes>
+      <edges xmi:id="_SFtuIFfaEeqJfJad6U3Leg" source="_Nw0xgVfaEeqJfJad6U3Leg" target="_OiCzEVfaEeqJfJad6U3Leg">
+        <type href="classmodel.ecore#//Class/contains"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_LapkUlfaEeqJfJad6U3Leg" origin="_LapkUFfaEeqJfJad6U3Leg" image="_LapkUVfaEeqJfJad6U3Leg"/>
+    <mappings xmi:id="_Nw0xglfaEeqJfJad6U3Leg" origin="_Nw0xgFfaEeqJfJad6U3Leg" image="_Nw0xgVfaEeqJfJad6U3Leg"/>
+    <mappings xmi:id="_OiCzElfaEeqJfJad6U3Leg" origin="_OiCzEFfaEeqJfJad6U3Leg" image="_OiCzEVfaEeqJfJad6U3Leg"/>
+  </units>
+  <units xsi:type="henshin:Rule" xmi:id="_2uJ1MFfbEeqJfJad6U3Leg" name="deleteEmptyClass">
+    <lhs xmi:id="_2uM4gFfbEeqJfJad6U3Leg" name="Lhs">
+      <nodes xmi:id="_7vpZIFfbEeqJfJad6U3Leg">
+        <type href="classmodel.ecore#//Class"/>
+      </nodes>
+      <formula xsi:type="henshin:Not" xmi:id="_EdHfkFfcEeqJfJad6U3Leg">
+        <child xsi:type="henshin:NestedCondition" xmi:id="_EdHfkVfcEeqJfJad6U3Leg">
+          <conclusion xmi:id="_EdHfklfcEeqJfJad6U3Leg">
+            <nodes xmi:id="_EdHflVfcEeqJfJad6U3Leg" outgoing="_FsZWIFfcEeqJfJad6U3Leg">
+              <type href="classmodel.ecore#//Class"/>
+            </nodes>
+            <nodes xmi:id="_DTUl8FfcEeqJfJad6U3Leg" incoming="_FsZWIFfcEeqJfJad6U3Leg">
+              <type href="classmodel.ecore#//Feature"/>
+            </nodes>
+            <edges xmi:id="_FsZWIFfcEeqJfJad6U3Leg" source="_EdHflVfcEeqJfJad6U3Leg" target="_DTUl8FfcEeqJfJad6U3Leg">
+              <type href="classmodel.ecore#//Class/contains"/>
+            </edges>
+          </conclusion>
+          <mappings xmi:id="_EdHfllfcEeqJfJad6U3Leg" origin="_7vpZIFfbEeqJfJad6U3Leg" image="_EdHflVfcEeqJfJad6U3Leg"/>
+        </child>
+      </formula>
+    </lhs>
+    <rhs xmi:id="_2uM4gVfbEeqJfJad6U3Leg" name="Rhs"/>
+  </units>
+</henshin:Module>
