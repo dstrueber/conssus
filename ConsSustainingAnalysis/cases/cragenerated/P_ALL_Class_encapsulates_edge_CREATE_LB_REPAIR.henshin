@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="ASCII"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_jvE6sHviEemxcto_OqSmSQ" name="P_ALL_Class_encapsulates_edge_CREATE_LB_REPAIR" description="Creates a node in all allowed metamodel contexts">
   <imports href="architectureCRA.ecore#/"/>
-  <units xsi:type="henshin:Rule" xmi:id="_jvE6sXviEemxcto_OqSmSQ" name="createClass_IN_ClassModel" description="creates one Class in the context: ClassModel">
+  <units xsi:type="henshin:Rule" xmi:id="_jvE6sXviEemxcto_OqSmSQ" name="createClass_IN_ClassModel_LB" description="creates one Class in the context: ClassModel">
     <parameters xmi:id="_jvE6snviEemxcto_OqSmSQ" name="Selected">
       <type xsi:type="ecore:EClass" href="architectureCRA.ecore#//ClassModel"/>
     </parameters>

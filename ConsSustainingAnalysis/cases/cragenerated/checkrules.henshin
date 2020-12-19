@@ -81,125 +81,41 @@
   </units>
   <units xsi:type="henshin:Rule" xmi:id="_oCyOQDSYEeuZxZ7l8U_CuA" name="checkPC3">
     <lhs xmi:id="_oCyOQTSYEeuZxZ7l8U_CuA" name="Lhs">
-      <nodes xmi:id="_oCyOQjSYEeuZxZ7l8U_CuA" outgoing="_oCyORTSYEeuZxZ7l8U_CuA">
-        <type href="architectureCRA.ecore#//Class"/>
-      </nodes>
-      <nodes xmi:id="_oCyOQzSYEeuZxZ7l8U_CuA" outgoing="_rhBPsDSYEeuZxZ7l8U_CuA">
-        <type href="architectureCRA.ecore#//Class"/>
-      </nodes>
-      <nodes xmi:id="_oCyORDSYEeuZxZ7l8U_CuA" incoming="_oCyORTSYEeuZxZ7l8U_CuA" outgoing="_si15EDSYEeuZxZ7l8U_CuA">
+      <nodes xmi:id="_qpDF4DSYEeuZxZ7l8U_CuA">
         <type href="architectureCRA.ecore#//Feature"/>
       </nodes>
-      <nodes xmi:id="_qpDF4DSYEeuZxZ7l8U_CuA" incoming="_rhBPsDSYEeuZxZ7l8U_CuA _si15EDSYEeuZxZ7l8U_CuA">
-        <type href="architectureCRA.ecore#//Feature"/>
-      </nodes>
-      <edges xmi:id="_oCyORTSYEeuZxZ7l8U_CuA" source="_oCyOQjSYEeuZxZ7l8U_CuA" target="_oCyORDSYEeuZxZ7l8U_CuA">
-        <type href="architectureCRA.ecore#//Class/encapsulates"/>
-      </edges>
-      <edges xmi:id="_rhBPsDSYEeuZxZ7l8U_CuA" source="_oCyOQzSYEeuZxZ7l8U_CuA" target="_qpDF4DSYEeuZxZ7l8U_CuA">
-        <type href="architectureCRA.ecore#//Class/encapsulates"/>
-      </edges>
-      <edges xmi:id="_si15EDSYEeuZxZ7l8U_CuA" source="_oCyORDSYEeuZxZ7l8U_CuA" target="_qpDF4DSYEeuZxZ7l8U_CuA">
-        <type href="architectureCRA.ecore#//Feature/functionalDependency"/>
-      </edges>
     </lhs>
     <rhs xmi:id="_oCyORzSYEeuZxZ7l8U_CuA" name="Rhs">
-      <nodes xmi:id="_oCyOSDSYEeuZxZ7l8U_CuA" outgoing="_oCyOSzSYEeuZxZ7l8U_CuA">
-        <type href="architectureCRA.ecore#//Class"/>
-      </nodes>
-      <nodes xmi:id="_oCyOSTSYEeuZxZ7l8U_CuA" outgoing="_rhBPsTSYEeuZxZ7l8U_CuA">
-        <type href="architectureCRA.ecore#//Class"/>
-      </nodes>
-      <nodes xmi:id="_oCyOSjSYEeuZxZ7l8U_CuA" incoming="_oCyOSzSYEeuZxZ7l8U_CuA" outgoing="_si15ETSYEeuZxZ7l8U_CuA">
+      <nodes xmi:id="_qpDF4TSYEeuZxZ7l8U_CuA">
         <type href="architectureCRA.ecore#//Feature"/>
       </nodes>
-      <nodes xmi:id="_qpDF4TSYEeuZxZ7l8U_CuA" incoming="_rhBPsTSYEeuZxZ7l8U_CuA _si15ETSYEeuZxZ7l8U_CuA">
-        <type href="architectureCRA.ecore#//Feature"/>
-      </nodes>
-      <edges xmi:id="_oCyOSzSYEeuZxZ7l8U_CuA" source="_oCyOSDSYEeuZxZ7l8U_CuA" target="_oCyOSjSYEeuZxZ7l8U_CuA">
-        <type href="architectureCRA.ecore#//Class/encapsulates"/>
-      </edges>
-      <edges xmi:id="_rhBPsTSYEeuZxZ7l8U_CuA" source="_oCyOSTSYEeuZxZ7l8U_CuA" target="_qpDF4TSYEeuZxZ7l8U_CuA">
-        <type href="architectureCRA.ecore#//Class/encapsulates"/>
-      </edges>
-      <edges xmi:id="_si15ETSYEeuZxZ7l8U_CuA" source="_oCyOSjSYEeuZxZ7l8U_CuA" target="_qpDF4TSYEeuZxZ7l8U_CuA">
-        <type href="architectureCRA.ecore#//Feature/functionalDependency"/>
-      </edges>
     </rhs>
-    <mappings xmi:id="_oCyOTTSYEeuZxZ7l8U_CuA" origin="_oCyOQjSYEeuZxZ7l8U_CuA" image="_oCyOSDSYEeuZxZ7l8U_CuA"/>
-    <mappings xmi:id="_oCyOTjSYEeuZxZ7l8U_CuA" origin="_oCyOQzSYEeuZxZ7l8U_CuA" image="_oCyOSTSYEeuZxZ7l8U_CuA"/>
-    <mappings xmi:id="_oCyOTzSYEeuZxZ7l8U_CuA" origin="_oCyORDSYEeuZxZ7l8U_CuA" image="_oCyOSjSYEeuZxZ7l8U_CuA"/>
     <mappings xmi:id="_qpDF4jSYEeuZxZ7l8U_CuA" origin="_qpDF4DSYEeuZxZ7l8U_CuA" image="_qpDF4TSYEeuZxZ7l8U_CuA"/>
   </units>
   <units xsi:type="henshin:Rule" xmi:id="_tF-bcjSYEeuZxZ7l8U_CuA" name="checkPC3Prime">
     <lhs xmi:id="_tF-bczSYEeuZxZ7l8U_CuA" name="Lhs">
-      <nodes xmi:id="_tF-bdDSYEeuZxZ7l8U_CuA" outgoing="_tF-beDSYEeuZxZ7l8U_CuA _xsBZYDSYEeuZxZ7l8U_CuA">
-        <type href="architectureCRA.ecore#//Class"/>
-      </nodes>
       <nodes xmi:id="_tF-bdTSYEeuZxZ7l8U_CuA" outgoing="_tF-beTSYEeuZxZ7l8U_CuA">
         <type href="architectureCRA.ecore#//Class"/>
       </nodes>
-      <nodes xmi:id="_tF-bdjSYEeuZxZ7l8U_CuA" incoming="_tF-beDSYEeuZxZ7l8U_CuA" outgoing="_tF-bejSYEeuZxZ7l8U_CuA _yYxxsDSYEeuZxZ7l8U_CuA">
+      <nodes xmi:id="_tF-bdzSYEeuZxZ7l8U_CuA" incoming="_tF-beTSYEeuZxZ7l8U_CuA">
         <type href="architectureCRA.ecore#//Feature"/>
       </nodes>
-      <nodes xmi:id="_tF-bdzSYEeuZxZ7l8U_CuA" incoming="_tF-beTSYEeuZxZ7l8U_CuA _tF-bejSYEeuZxZ7l8U_CuA">
-        <type href="architectureCRA.ecore#//Feature"/>
-      </nodes>
-      <nodes xmi:id="_xGSPEDSYEeuZxZ7l8U_CuA" incoming="_xsBZYDSYEeuZxZ7l8U_CuA _yYxxsDSYEeuZxZ7l8U_CuA">
-        <type href="architectureCRA.ecore#//Feature"/>
-      </nodes>
-      <edges xmi:id="_tF-beDSYEeuZxZ7l8U_CuA" source="_tF-bdDSYEeuZxZ7l8U_CuA" target="_tF-bdjSYEeuZxZ7l8U_CuA">
-        <type href="architectureCRA.ecore#//Class/encapsulates"/>
-      </edges>
       <edges xmi:id="_tF-beTSYEeuZxZ7l8U_CuA" source="_tF-bdTSYEeuZxZ7l8U_CuA" target="_tF-bdzSYEeuZxZ7l8U_CuA">
         <type href="architectureCRA.ecore#//Class/encapsulates"/>
       </edges>
-      <edges xmi:id="_tF-bejSYEeuZxZ7l8U_CuA" source="_tF-bdjSYEeuZxZ7l8U_CuA" target="_tF-bdzSYEeuZxZ7l8U_CuA">
-        <type href="architectureCRA.ecore#//Feature/functionalDependency"/>
-      </edges>
-      <edges xmi:id="_xsBZYDSYEeuZxZ7l8U_CuA" source="_tF-bdDSYEeuZxZ7l8U_CuA" target="_xGSPEDSYEeuZxZ7l8U_CuA">
-        <type href="architectureCRA.ecore#//Class/encapsulates"/>
-      </edges>
-      <edges xmi:id="_yYxxsDSYEeuZxZ7l8U_CuA" source="_tF-bdjSYEeuZxZ7l8U_CuA" target="_xGSPEDSYEeuZxZ7l8U_CuA">
-        <type href="architectureCRA.ecore#//Feature/functionalDependency"/>
-      </edges>
     </lhs>
     <rhs xmi:id="_tF-bezSYEeuZxZ7l8U_CuA" name="Rhs">
-      <nodes xmi:id="_tF-bfDSYEeuZxZ7l8U_CuA" outgoing="_tF-bgDSYEeuZxZ7l8U_CuA _xsBZYTSYEeuZxZ7l8U_CuA">
-        <type href="architectureCRA.ecore#//Class"/>
-      </nodes>
       <nodes xmi:id="_tF-bfTSYEeuZxZ7l8U_CuA" outgoing="_tF-bgTSYEeuZxZ7l8U_CuA">
         <type href="architectureCRA.ecore#//Class"/>
       </nodes>
-      <nodes xmi:id="_tF-bfjSYEeuZxZ7l8U_CuA" incoming="_tF-bgDSYEeuZxZ7l8U_CuA" outgoing="_tF-bgjSYEeuZxZ7l8U_CuA _yYyYwDSYEeuZxZ7l8U_CuA">
+      <nodes xmi:id="_tF-bfzSYEeuZxZ7l8U_CuA" incoming="_tF-bgTSYEeuZxZ7l8U_CuA">
         <type href="architectureCRA.ecore#//Feature"/>
       </nodes>
-      <nodes xmi:id="_tF-bfzSYEeuZxZ7l8U_CuA" incoming="_tF-bgTSYEeuZxZ7l8U_CuA _tF-bgjSYEeuZxZ7l8U_CuA">
-        <type href="architectureCRA.ecore#//Feature"/>
-      </nodes>
-      <nodes xmi:id="_xGSPETSYEeuZxZ7l8U_CuA" incoming="_xsBZYTSYEeuZxZ7l8U_CuA _yYyYwDSYEeuZxZ7l8U_CuA">
-        <type href="architectureCRA.ecore#//Feature"/>
-      </nodes>
-      <edges xmi:id="_tF-bgDSYEeuZxZ7l8U_CuA" source="_tF-bfDSYEeuZxZ7l8U_CuA" target="_tF-bfjSYEeuZxZ7l8U_CuA">
-        <type href="architectureCRA.ecore#//Class/encapsulates"/>
-      </edges>
       <edges xmi:id="_tF-bgTSYEeuZxZ7l8U_CuA" source="_tF-bfTSYEeuZxZ7l8U_CuA" target="_tF-bfzSYEeuZxZ7l8U_CuA">
         <type href="architectureCRA.ecore#//Class/encapsulates"/>
       </edges>
-      <edges xmi:id="_tF-bgjSYEeuZxZ7l8U_CuA" source="_tF-bfjSYEeuZxZ7l8U_CuA" target="_tF-bfzSYEeuZxZ7l8U_CuA">
-        <type href="architectureCRA.ecore#//Feature/functionalDependency"/>
-      </edges>
-      <edges xmi:id="_xsBZYTSYEeuZxZ7l8U_CuA" source="_tF-bfDSYEeuZxZ7l8U_CuA" target="_xGSPETSYEeuZxZ7l8U_CuA">
-        <type href="architectureCRA.ecore#//Class/encapsulates"/>
-      </edges>
-      <edges xmi:id="_yYyYwDSYEeuZxZ7l8U_CuA" source="_tF-bfjSYEeuZxZ7l8U_CuA" target="_xGSPETSYEeuZxZ7l8U_CuA">
-        <type href="architectureCRA.ecore#//Feature/functionalDependency"/>
-      </edges>
     </rhs>
-    <mappings xmi:id="_tF-bgzSYEeuZxZ7l8U_CuA" origin="_tF-bdDSYEeuZxZ7l8U_CuA" image="_tF-bfDSYEeuZxZ7l8U_CuA"/>
     <mappings xmi:id="_tF-bhDSYEeuZxZ7l8U_CuA" origin="_tF-bdTSYEeuZxZ7l8U_CuA" image="_tF-bfTSYEeuZxZ7l8U_CuA"/>
-    <mappings xmi:id="_tF-bhTSYEeuZxZ7l8U_CuA" origin="_tF-bdjSYEeuZxZ7l8U_CuA" image="_tF-bfjSYEeuZxZ7l8U_CuA"/>
     <mappings xmi:id="_tF-bhjSYEeuZxZ7l8U_CuA" origin="_tF-bdzSYEeuZxZ7l8U_CuA" image="_tF-bfzSYEeuZxZ7l8U_CuA"/>
-    <mappings xmi:id="_xGSPEjSYEeuZxZ7l8U_CuA" origin="_xGSPEDSYEeuZxZ7l8U_CuA" image="_xGSPETSYEeuZxZ7l8U_CuA"/>
   </units>
 </henshin:Module>

@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="ASCII"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_jvRvAHviEemxcto_OqSmSQ" name="S_ALL_Class_encapsulates_edge_CHANGE" description="Changes encapsulates edge from Class to Feature">
   <imports href="architectureCRA.ecore#/"/>
-  <units xsi:type="henshin:Rule" xmi:id="_jvRvAXviEemxcto_OqSmSQ" name="changeFeature_isEncapsulatedBy_TO_Class" description="Change the EReference isEncapsulatedBy">
+  <units xsi:type="henshin:Rule" xmi:id="_jvRvAXviEemxcto_OqSmSQ" name="changeFeature_isEncapsulatedBy_TO_Class_S" description="Change the EReference isEncapsulatedBy">
     <lhs xmi:id="_jvRvAnviEemxcto_OqSmSQ" name="Lhs">
       <nodes xmi:id="_jvRvA3viEemxcto_OqSmSQ" name="Selected" incoming="_jvRvB3viEemxcto_OqSmSQ" outgoing="_jvRvBnviEemxcto_OqSmSQ">
         <type href="architectureCRA.ecore#//Feature"/>

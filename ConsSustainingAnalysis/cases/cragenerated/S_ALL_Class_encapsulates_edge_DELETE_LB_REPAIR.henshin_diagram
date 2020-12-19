@@ -31,7 +31,7 @@
           <styles xmi:type="notation:FilteringStyle" xmi:id="_cfwSMjSnEeuZxZ7l8U_CuA"/>
         </children>
         <element xmi:type="henshin:Node" href="S_ALL_Class_encapsulates_edge_DELETE_LB_REPAIR.henshin#_jvZq1XviEemxcto_OqSmSQ"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cfwSLTSnEeuZxZ7l8U_CuA" x="65" y="243"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cfwSLTSnEeuZxZ7l8U_CuA" x="238" y="199"/>
       </children>
       <children xmi:type="notation:Shape" xmi:id="_cfwSMzSnEeuZxZ7l8U_CuA" type="3001" fontName="Segoe UI">
         <children xmi:type="notation:DecorationNode" xmi:id="_cfwSNTSnEeuZxZ7l8U_CuA" type="5002"/>
@@ -41,7 +41,7 @@
           <styles xmi:type="notation:FilteringStyle" xmi:id="_cfwSOTSnEeuZxZ7l8U_CuA"/>
         </children>
         <element xmi:type="henshin:Node" href="S_ALL_Class_encapsulates_edge_DELETE_LB_REPAIR.henshin#_jvZq1nviEemxcto_OqSmSQ"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cfwSNDSnEeuZxZ7l8U_CuA" x="361" y="217"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cfwSNDSnEeuZxZ7l8U_CuA" x="561" y="154"/>
       </children>
     </children>
     <element xmi:type="henshin:Rule" href="S_ALL_Class_encapsulates_edge_DELETE_LB_REPAIR.henshin#_jvZDwXviEemxcto_OqSmSQ"/>

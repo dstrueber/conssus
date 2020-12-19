@@ -4,7 +4,9 @@ import java.io.File;
 import java.io.OutputStream;
 import java.io.PrintStream;
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 import org.eclipse.emf.ecore.xmi.impl.XMIResourceFactoryImpl;
 import org.eclipse.emf.henshin.model.HenshinPackage;
@@ -34,7 +36,7 @@ public class AnalysisDriver {
 	}
 
 	public static void main(String[] args) {
-		disableErr(); // to avoid awkward formatting issue
+//		disableErr(); // to avoid awkward formatting issue
 		HenshinResourceSet resourceSet = new HenshinResourceSet(INPUT_RULE_PATH);
 
 		resourceSet.getResourceFactoryRegistry().getExtensionToFactoryMap().put("xmi", new XMIResourceFactoryImpl());
@@ -45,7 +47,8 @@ public class AnalysisDriver {
 		Rule checkPC2Prime = (Rule) checkRuleModule.getUnit("checkPC2Prime");
 		Rule checkPC3 = (Rule) checkRuleModule.getUnit("checkPC3");
 		Rule checkPC3Prime = (Rule) checkRuleModule.getUnit("checkPC3Prime");
-		List<Rule> checkRules = new ArrayList<>();
+		Set<Rule> checkRules = new HashSet<>();
+		Set<Rule> domainRules = new HashSet<>();
 		checkRules.add(checkPC1);
 		checkRules.add(checkPC2);
 		checkRules.add(checkPC2Prime);
@@ -54,9 +57,15 @@ public class AnalysisDriver {
 
 		List<Module> modules = defineInputRules(resourceSet);
 
+		
 		for (Module module : modules) {
 			for (Rule domainRule : module.getAllRules()) {
 				System.out.print(domainRule.getName() + " \t");
+				domainRules.add(domainRule);
+				
+//				if (true)
+//					continue;
+				
 				domainRule.getLhs().setFormula(null);
 
 				ConsSustainingAnalysis.printSeqIndependent(domainRule, checkPC1);
@@ -83,6 +92,9 @@ public class AnalysisDriver {
 				System.out.println();
 			}
 		}
+		
+
+		ConsSustainingAnalysis.performAnalysis(domainRules, checkRules, true);
 	}
 
 	private static void disableErr() {
